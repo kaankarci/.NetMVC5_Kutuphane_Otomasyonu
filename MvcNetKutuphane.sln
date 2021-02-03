@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcNetKutuphane", "MvcNetKutuphane\MvcNetKutuphane.csproj", "{3F8C315C-F49D-41DD-AC0D-945B70D8F6D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F8C315C-F49D-41DD-AC0D-945B70D8F6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8C315C-F49D-41DD-AC0D-945B70D8F6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8C315C-F49D-41DD-AC0D-945B70D8F6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8C315C-F49D-41DD-AC0D-945B70D8F6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4823B6D7-E455-4C47-A7DE-5AF7C04CB871}
+	EndGlobalSection
+EndGlobal
