@@ -4,8 +4,8 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Layout.cshtml";
 }
+<h2>Kitaplar</h2>
 
- 
 
 <table class="table table-bordered">
     <tr>
@@ -31,10 +31,11 @@
             <td>@ktg.YAYINEVI</td>
             <td>@ktg.SAYFA</td>
             <!--Yazan yazı, Gidilecek ActionResult-->
-            <td>@Html.ActionLink("Sil", "YazarSil", new { id = ktg.ID }, new { @class = "btn btn-danger", onclick = "return confirm('Silmek istiyor musunuz?')" })</td>
-            <td>@Html.ActionLink("Güncelle", "YazarGetir", new { id = ktg.ID }, new { @class = "btn btn-success" })</td>
+            <td>@Html.ActionLink("Sil", "KitapSil", new { id = ktg.ID }, new { @class = "btn btn-danger", onclick = "return confirm('Silmek istiyor musunuz?')" })</td>
+            <td>@Html.ActionLink("Güncelle", "KitapGetir", new { id = ktg.ID }, new { @class = "btn btn-success" })</td>
 
         </tr>
     }
 </table>
-<a href=" /Yazar/Yaz
+
+<a href="/Kitap/KitapEkle/" class="btn btn-primary">Yeni Kitap Ekle</a>
