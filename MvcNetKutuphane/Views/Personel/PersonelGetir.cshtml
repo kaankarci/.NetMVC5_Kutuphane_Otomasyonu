@@ -1,0 +1,27 @@
+﻿@model MvcNetKutuphane.Models.Entity.TBLPERSONEL
+@{
+    ViewBag.Title = "PersonelGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("PersonelGuncelle", "Personel", FormMethod.Post))
+{ //ActionResult adı, Controller adı, çalışacak komut
+
+
+    <form class="form-group">
+        <div></div>
+
+        <div style="margin-top:15px;">
+            <label>Personel Adı  </label>
+            @Html.TextBoxFor(k => k.ID, new { @class = "form-control" })
+        </div>
+        <div style="margin-top:15px;">
+            <label>Personel Adı  </label>
+            @Html.TextBoxFor(k => k.PERSONEL, new { @class = "form-control" })
+        </div>
+        
+
+        <button style="margin-top:15px;" class="btn btn-warning">Güncelle</button>
+    </form>
+
+}

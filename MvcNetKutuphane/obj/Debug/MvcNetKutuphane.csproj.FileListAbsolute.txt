@@ -81,3 +81,7 @@ C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\obj\Debug
 C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\obj\Debug\MvcNetKutuphane.dll
 C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\obj\Debug\MvcNetKutuphane.pdb
 C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\obj\Debug\MvcNetKutuphane.csprojAssemblyReference.cache
+C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\bin\PagedList.dll
+C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\bin\PagedList.Mvc.dll
+C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\bin\PagedList.xml
+C:\Users\Kaan Karcı\Desktop\kutuphane\MvcNetKutuphane\MvcNetKutuphane\bin\PagedList.Mvc.xml

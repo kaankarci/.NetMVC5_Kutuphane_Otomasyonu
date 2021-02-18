@@ -1,0 +1,57 @@
+﻿@model MvcNetKutuphane.Models.Entity.TBLUYELER
+
+@{
+    ViewBag.Title = "UyeEkle";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+<form class="form-group" method="post">
+    <div></div>
+    <div style="margin-top:15px">
+        <label>Uye adı:</label>
+        @Html.TextBoxFor(k => k.AD, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.AD, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Soyadı adı:</label>
+        @Html.TextBoxFor(k => k.SOYAD, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.SOYAD, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Mail:</label>
+        @Html.TextBoxFor(k => k.MAIL, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.MAIL, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Kullanıcı adı:</label>
+        @Html.TextBoxFor(k => k.KULLANICIADI, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.KULLANICIADI, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Sifre:</label>
+        @Html.TextBoxFor(k => k.SIFRE, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.SIFRE, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Fotograf Linki:</label>
+        @Html.TextBoxFor(k => k.FOTOGRAF, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.FOTOGRAF, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Telefon:</label>
+        @Html.TextBoxFor(k => k.TELEFON, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.TELEFON, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Okul:</label>
+        @Html.TextBoxFor(k => k.OKUL, new { @class = "form-control" })
+        @Html.ValidationMessageFor(k => k.OKUL, "", new { @style = "color:red" })
+    </div>
+    <div>
+        <div style="margin-top:15px">
+            <button class="btn btn-info" id="Btn1">Uye Ekle</button>
+        </div>
+
+    </div>
+</form> 

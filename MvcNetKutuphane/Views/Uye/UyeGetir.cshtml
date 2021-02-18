@@ -1,0 +1,64 @@
+﻿@model MvcNetKutuphane.Models.Entity.TBLUYELER
+
+@{
+    ViewBag.Title = "UyeGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+@using (Html.BeginForm("UyeGuncelle", "Uye", FormMethod.Post))
+{ //ActionResult adı, Controller adı, çalışacak komut
+
+
+    <form class="form-group">
+        <div></div>
+
+        <div style="margin-top:15px;">
+            <label>Uye Id:  </label>
+            @Html.TextBoxFor(k => k.ID, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Uye Adı:  </label>
+            @Html.TextBoxFor(k => k.AD, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Uye Soyadı:  </label>
+            @Html.TextBoxFor(k => k.SOYAD, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Mail:  </label>
+            @Html.TextBoxFor(k => k.MAIL, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Kullanıcı Adı:  </label>
+            @Html.TextBoxFor(k => k.KULLANICIADI, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Şifre:  </label>
+            @Html.TextBoxFor(k => k.SIFRE, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Fotograf:  </label>
+            @Html.TextBoxFor(k => k.FOTOGRAF, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Telefon:  </label>
+            @Html.TextBoxFor(k => k.TELEFON, new { @class = "form-control" })
+            <br />
+        </div>
+        <div style="margin-top:15px;">
+            <label>Okul:  </label>
+            @Html.TextBoxFor(k => k.OKUL, new { @class = "form-control" })
+            <br />
+        </div>
+
+
+        <button style="margin-top:15px;" class="btn btn-warning">Güncelle</button>
+    </form>
+
+}
