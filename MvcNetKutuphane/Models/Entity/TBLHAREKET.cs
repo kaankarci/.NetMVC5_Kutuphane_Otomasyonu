@@ -31,5 +31,6 @@ namespace MvcNetKutuphane.Models.Entity
         public virtual ICollection<TBLCEZALAR> TBLCEZALAR { get; set; }
         public virtual TBLKITAP TBLKITAP { get; set; }
         public virtual TBLUYELER TBLUYELER { get; set; }
+        public virtual TBLPERSONEL TBLPERSONEL { get; set; }
     }
 }

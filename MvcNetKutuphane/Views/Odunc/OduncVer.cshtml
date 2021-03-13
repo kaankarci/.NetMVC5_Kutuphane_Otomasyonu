@@ -1,0 +1,41 @@
+﻿@model MvcNetKutuphane.Models.Entity.TBLHAREKET
+@{
+    ViewBag.Title = "OduncVer";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Ödünç Kitap Ver</h2>
+<form class="form-group" method="post">
+    <div></div>
+
+    <div style="margin-top:15px">
+        <label>Uye Id:</label>
+        @Html.DropDownListFor(k => k.UYE, (List<SelectListItem>)ViewBag.uyeAdi, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Kitap Id:</label>
+        @Html.DropDownListFor(k => k.KITAP, (List<SelectListItem>)ViewBag.kitapAdi, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Personel Id:</label>
+        @Html.DropDownListFor(k => k.PERSONEL, (List<SelectListItem>)ViewBag.personelAdi, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Kitap Alış Tarihi:</label>
+        <input type="text" class="form-control" name="ALISTARIH" value="@DateTime.Now.ToShortDateString()"/>
+    </div>
+    <div style="margin-top:15px">
+        <label>Kitap İade Tarihi:</label>
+        <input type="text" class="form-control" name="IADETARIH" value="@DateTime.Now.AddDays(7).ToShortDateString()" />
+    </div>
+
+
+
+
+    <div>
+        <div style="margin-top:15px">
+            <button class="btn btn-group" style="background-color:#c3156f; color:white;" >Kitabı Ver</button>
+        </div>
+
+    </div>
+</form> 

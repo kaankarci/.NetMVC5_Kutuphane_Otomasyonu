@@ -16,6 +16,9 @@ namespace MvcNetKutuphane.Controllers
             var degerler = db.TBLPERSONEL.ToList();
             return View(degerler);
         }
+        
+
+
         [HttpGet]
         public ActionResult PersonelEkle()
         {
